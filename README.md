@@ -17,10 +17,13 @@ Required shapefile parts:
 - `coastal_vulnerability.shp`  (geometry)
 - `coastal_vulnerability.shx`  (index)
 - `coastal_vulnerability.dbf`  (attributes)
+  
 Recommended:
 - `coastal_vulnerability.prj`  (coordinate system)
+  
 Optional:
 - `coastal_vulnerability.cpg`  (text encoding)
+  
 (Any extra sidecar like `.prj` and `.cpg` are not required to read the data.)
 
 Columns (attributes)
