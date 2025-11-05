@@ -3,14 +3,14 @@ Coastal Vulnerability (Census Blocks)
 2010 Census **blocks** in the coastal study area. Each record has a block-level
 **Vulnerability Index** `vi_mean` in [0,1] (higher = more vulnerable).
 
-What is `coastal_vulnerability.geojson`?
+`coastal_vulnerability.geojson`
 ----------------------------------------
 A **GeoJSON export** of the same features/attributes as the shapefile; a single-file
 alternative for web/non‑ESRI tools (e.g., Leaflet/Mapbox/QGIS/GeoPandas).
 
-What’s inside the ZIP and where can it be used?
+`coastal_vulnerability.zip`
 -----------------------------------------------
-`coastal_vulnerability.zip` contains a standard **ESRI Shapefile**. After unzipping,
+The zip file contains a standard **ESRI Shapefile**. After unzipping,
 keep the files together. These are usable in **ArcGIS**, **QGIS**, and **GeoPandas**.
 
 Required shapefile parts:
@@ -21,7 +21,7 @@ Recommended:
 - `coastal_vulnerability.prj`  (coordinate system)
 Optional:
 - `coastal_vulnerability.cpg`  (text encoding)
-(Any extra sidecar like `.qmd` is not required to read the data.)
+(Any extra sidecar like `.prj` and `.cpg` are not required to read the data.)
 
 Columns (attributes)
 --------------------
@@ -38,4 +38,6 @@ Columns (attributes)
 - `INTPTLON10` — internal point longitude (deg)
 - `vi_mean`    — vulnerability index [0,1]
 
-`coastal_vulnerability.csv`: attributes only (no geometry). 
+`coastal_vulnerability.csv`:
+-----------------------------------------------
+Contains only attributes (no geometry). 
