@@ -41,6 +41,6 @@ Columns (attributes)
 A **GeoJSON export** of the same features/attributes as the shapefile; a single-file
 alternative for web/non‑ESRI tools (e.g., Leaflet/Mapbox/QGIS/GeoPandas).
 
-`coastal_vulnerability.csv`:
+`coastal_vulnerability.csv`
 -----------------------------------------------
 Contains only attributes (no geometry). 
